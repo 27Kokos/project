@@ -734,7 +734,12 @@ textarea {
     flex  : none;
     width : 91.66667%;
 }
-
+.column.lg-12.section-header__pretitle.pretitle.text-pretitle{
+    top: 50px;
+}
+.column.lg-12.section-header__pretitle.text-pretitle{
+    top: 50px;
+}
 .lg-12 {
     flex  : none;
     width : 100%;
@@ -3128,7 +3133,7 @@ img.u-pull-left {
 .s-header__menu-links a {
     display             : block;
     font-family         : var(--font-2);
-    font-size           : 1.4rem;
+    font-size           : 1.6rem;
     font-weight         : 400;
     line-height         : var(--vspace-1);
     color               : rgba(255, 255, 255, 0.6);
